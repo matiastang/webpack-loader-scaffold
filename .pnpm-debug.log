@@ -1,0 +1,15 @@
+{
+  "0 info pnpm:global": "Nothing to stop. No server is running for the store at /Users/matias/.pnpm-store/v3",
+  "1 debug pnpm:scope": {
+    "selected": 1
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+    "err": {
+      "name": "Error",
+      "message": "This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npm.taobao.org/\"}. The current configuration is {\"default\":\"http://verdaccio.bbdops.com/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".",
+      "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+      "stack": "Error: This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npm.taobao.org/\"}. The current configuration is {\"default\":\"http://verdaccio.bbdops.com/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".\n    at validateModules (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:86867:13)\n    at async getContext (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:86739:24)\n    at async mutateModules (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:111512:17)\n    at async handler (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:114406:33)\n    at async Timeout._onTimeout (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:123639:22)"
+    }
+  }
+}

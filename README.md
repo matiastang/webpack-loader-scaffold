@@ -1,2 +1,1 @@
-# webpack-loader-scaffold
-webpack loader 脚手架
+# webpack插件脚手架
